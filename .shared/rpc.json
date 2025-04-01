@@ -1,0 +1,7 @@
+{
+    "server": {
+        "path": "src",
+        "port": 3030,
+        "base": "/"
+    }
+}

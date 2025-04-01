@@ -1,0 +1,1 @@
+export default () => `Im bar!!!!!` + navigator.userAgent
