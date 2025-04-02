@@ -1,8 +1,3 @@
-import { serve, config } from '@debuno/rpc'
-import denoConfig from './deno.json' with {type: 'json'}
+import rpc from '@debuno/rpc'
 
-const rpcrc = config(denoConfig.rpc)
-
-serve(...rpcrc)
-
-console.log({ rpcrc })
+await rpc().then(console.log)
