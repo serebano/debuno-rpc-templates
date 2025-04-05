@@ -1,1 +1,1 @@
-export default () => `Im bar!!!!!` + navigator.userAgent
+export default () => `$ccc$ Im bar ` + Date.now() + ' **** ' + navigator.userAgent
