@@ -1,8 +1,8 @@
 {
     "version": "0.0.1",
-    "rpcx": {
-        "3030/foo": "./foo",
-        "3030/bar": "./bar"
+    "rpc": {
+        "80/foo": "./foo",
+        "80/bar": "./bar"
     },
     "imports": {
         "@debuno/rpc/client": "/Users/serebano/dev/debuno-rpc/client.d.ts",

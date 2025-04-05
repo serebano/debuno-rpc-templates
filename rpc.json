@@ -2,6 +2,7 @@
     "rpc": {
         "8080/basic": "./basic",
         "8080/web": "./web",
-        "8080/multi": "./multi"
+        "8080/multi": "./multi",
+        "8080/": "./"
     }
 }

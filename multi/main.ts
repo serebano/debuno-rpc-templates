@@ -2,8 +2,7 @@ import { serve } from '@debuno/rpc'
 import { cyan, gray, green, magenta, red } from "jsr:@std/fmt@1.0.6/colors";
 
 
-await serve(null, {
-    // consoleLevels: ['info', 'warn', 'error'],
+await serve(undefined, {
     onInit(server) {
         console.time(server.$id)
         console.groupEnd()
