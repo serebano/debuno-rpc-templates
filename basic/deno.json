@@ -1,12 +1,14 @@
 {
+    "version": "0.0.1",
     "rpc": {
-        "path": "src",
-        "port": 3030,
-        "base": "/"
+        "3030/": "./"
+    },
+    "tasks": {
+        "rpc": "rpc start"
     },
     "imports": {
         "@debuno/rpc/client": "/Users/serebano/dev/debuno-rpc/client.d.ts",
-        "@debuno/rpc": "/Users/serebano/dev/debuno-rpc/mod.ts"
+        "@debuno/rpc": "/Users/serebano/dev/debuno-rpc/index.ts"
     },
     "compilerOptions": {
         "jsx": "react-jsx",

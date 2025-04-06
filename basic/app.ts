@@ -1,4 +1,4 @@
-import { env, cwd, abort } from "node:process";
+import { env, cwd } from "node:process";
 
 export default () => env
 

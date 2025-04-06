@@ -1,8 +1,7 @@
 {
     "version": "0.0.1",
     "rpc": {
-        "3030/foo": "./foo",
-        "3030/bar": "./bar"
+        "3030/": "./"
     },
     "tasks": {
         "rpc": "rpc start"
