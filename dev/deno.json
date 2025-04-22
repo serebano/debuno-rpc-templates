@@ -1,0 +1,28 @@
+{
+    "version": "0.0.1",
+    "rpc": {
+        "localhost": "./"
+    },
+    "tasks": {
+        "rpc": "rpc start"
+    },
+    "imports": {
+        "@debuno/rpc/client": "/Users/serebano/dev/debuno-rpc/client.d.ts",
+        "@debuno/rpc": "/Users/serebano/dev/debuno-rpc/index.ts",
+        "preact": "https://esm.sh/preact@10.26.5",
+        "preact/": "https://esm.sh/preact@10.26.5/",
+        "@preact/signals": "https://esm.sh/@preact/signals@2.0.3"
+    },
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "jsxImportSource": "preact",
+        "types": [
+            "@debuno/rpc/client"
+        ],
+        "lib": [
+            "deno.window",
+            "dom"
+        ]
+    },
+    "lock": false
+}
